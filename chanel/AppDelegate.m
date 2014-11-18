@@ -17,6 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+//    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+//    
+//    FirstViewController *firstViewController = [[FirstViewController alloc] initWithNibName:nil bundle:nil];
+////    UINavigationController *firstNavigationController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
+//
+//    
+//    SecondViewController *secondViewController = [[SecondViewController alloc] initWithNibName:nil bundle:nil];
+////    UINavigationController *secondNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
+//
+//    
+//    tabBarController.viewControllers = [NSArray arrayWithObjects:firstViewController,secondViewController,nil];
+//    
+//    [self.window addSubview:tabBarController.view];
+//    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController<UIWebViewDelegate>
 
+
+@property (weak, nonatomic) IBOutlet UIWebView *h5WebView;
+
+@property (weak, nonatomic) IBOutlet UITextField *addressText;
 
 @end
 
